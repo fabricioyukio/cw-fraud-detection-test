@@ -5,7 +5,7 @@ A very implementation example for an API to validate credit card requests.
 
 ## What does it do?
 
-It uses sample credit card transaction data to learn which are the most probable operations to incur in a Chargeback result for a credit payment request. (You can read and learn more about **Chargebacks** in the file 'solution.md')
+It uses sample credit card transaction data to learn which are the most probable operations to incur in a Chargeback result for a credit payment request. (You can read and learn more about **Chargebacks** in the file ```solution.md```)
 
 Then, whenever there is a request for credit card payment it uses the learned pattern to approve or deny a credit card payment request.
 
