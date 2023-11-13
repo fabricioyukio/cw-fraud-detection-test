@@ -53,7 +53,7 @@ Example payload:
 "merchant_id" : 29744,
 "user_id" : 97051,
 "card_number" : "434505******9116",
-"transaction_date" : "2019-11-31T23:16:32.812632",
+"transaction_date" : "2019-11-30T23:16:32.812632",
 "transaction_amount" : 373,
 "device_id" : 285475
 }
@@ -82,7 +82,7 @@ Things to watch for:
 
 - Reject transaction if user is trying too many transactions in a row;
 - Reject transactions above a certain amount in a given period;
-- Reject transaction if a user had a chargeback before (note that this information does not comes on the payload. The chargeback data is received **days after the transaction was approved**)
+- Reject transaction if a user had a chargeback before (note that this information does not come on the payload. The chargeback data is received **days after the transaction was approved**)
 
 ## 4. Deliverables
 

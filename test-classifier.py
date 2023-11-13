@@ -35,4 +35,6 @@ new_data['card_number'] = loaded_le.fit_transform(new_data['card_number'].astype
 # Use the loaded model to make a prediction
 prediction = loaded_model.predict(new_data)
 
+print(prediction)
+
 print(f'The predicted has_cbk score for the transaction is: {prediction[0]}')

@@ -36,7 +36,7 @@ print('training')
 # data into training and testing sets
 features_train, features_test, target_train, target_test = train_test_split(features, target, test_size=0.35, random_state=35)
 
-# Train your model
+# Training your model
 model = RandomForestRegressor()
 model.fit(features_train, target_train)
 
